@@ -1,0 +1,89 @@
+body{
+
+    background-color:#1E202B ;
+}
+
+
+.bg-body-tertiary{
+
+    background-color: #1E202B !important;
+}
+.title-sub{
+
+    font-size: 0.8rem;
+    color: #bfc1c8;
+}
+.active{
+
+    border: 1px solid #009ad8;
+     border-radius:20px ;
+   
+   
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+
+    color: #009ad8;
+}
+.custom-hover{
+    transition: 0.5s all;
+    border-radius:20px ;
+}
+.custom-hover:hover{
+    border: 1px solid #009ad8;
+
+    
+    
+    
+}
+.custom-hover:hover a{
+    color: #009ad8 !important;
+}
+#home{
+    height: 80vh;
+    background-color:#1E202B ;
+}
+
+.hero{
+    background-image: url(../images/images2.png);
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+.custom-btn{
+
+    background-color: #009ad8;
+    border-color: #009ad8;
+    color: white;
+    transition: 0.5s all;
+}
+.custom-btn:hover{
+    background-color: #0baae9;
+    color: white;
+}
+.card{
+    background-color: #323544 !important;
+    color: white;
+    border: none;
+}
+.custom-card{
+    background-color: #262936 !important;
+}
+@media screen and (max-width:992px) {
+
+    .active{
+
+    border: none;
+     border-radius:0px ;
+   
+   
+}
+.custom-hover:hover{
+    border: none;
+    padding: 0;
+
+    
+    
+    
+}
+
+}
